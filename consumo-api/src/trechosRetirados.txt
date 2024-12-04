@@ -1,0 +1,19 @@
+Layout.js:
+
+
+              {/* História */}
+              <li style={{ marginRight: "30px" }}>
+                <Link
+                  to="/historia"
+                  style={{ color: "#aa9864", textDecoration: "none" }}
+                >
+                  Nossa História
+                </Link>
+              </li>
+
+
+App.js:
+import Historia from "./pages/Historia";
+
+<Route path="/historia" element={<Historia />} />
+
